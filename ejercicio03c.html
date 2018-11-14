@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>practica03c</title>
+
+    <script type="text/javascript">
+        function queDiaEs(numeroDado) {
+            var numeroDado = window.prompt('Ingrese un numero del 1 al 7');
+            switch (numeroDado) {
+
+                case '1':
+                    document.write('Lunes');
+                    break;
+                case '2':
+                    document.write('Martes');
+                    break;
+                case '3':
+                    document.write('Miercoles');
+                    break;
+                case '4':
+                    document.write('Jueves');
+                    break;
+                case '5':
+                    document.write('Viernes');
+                    break;
+                case '6':
+                    document.write('Sabado');
+                    break;
+                case '7':
+                    document.write('Domingo');
+                    break;
+                default:
+                    document.write('La semana no tiene ni mas ni menos que 7 dias')
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        queDiaEs();
+    </script>
+</body>
+
+</html>
